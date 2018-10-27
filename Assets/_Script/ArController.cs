@@ -36,6 +36,7 @@ public class ArController : MonoBehaviour {
 			Parameter.eatCal -= 250;
 			break;
 		case 2:
+			Parameter.eatCal -= 300;
 			break;
 		default:
 			break;
@@ -57,6 +58,7 @@ public class ArController : MonoBehaviour {
 			Parameter.eatCal += 250;
 			break;
 		case 2:
+			Parameter.eatCal += 300;
 			break;
 		default:
 			break;
@@ -104,7 +106,7 @@ public class ArController : MonoBehaviour {
 					tmpFood.GetComponentInChildren<Text> ().text = "エビフライ";
 					break;
 				case 2:
-					tmpFood.GetComponentInChildren<Text> ().text = "c";
+					tmpFood.GetComponentInChildren<Text> ().text = "ハンバーガー";
 					break;
 				default:
 					Debug.Log ("content error");

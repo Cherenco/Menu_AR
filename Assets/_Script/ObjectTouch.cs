@@ -36,10 +36,12 @@ public class ObjectTouch : MonoBehaviour {
 							+ food.GetComponent<Food> ().getFoodCal ().ToString () + " kcal\nwalk: " +
 							food.GetComponent<Food> ().getExercise (0).ToString ("F1") + " h\nrun: " +
 							food.GetComponent<Food> ().getExercise (1).ToString ("F1") + " h").ToString ();
+
 							return true;
 						}
 					}
 				}
+
 			}
 		}
 		return false;
